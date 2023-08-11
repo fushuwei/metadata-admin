@@ -92,16 +92,16 @@ omit
 ## References
 
 - Official documents (required reading)
-    - https://docs.djangoproject.com/zh-hans/4.2/
-    - https://www.django-rest-framework.org/
+    - `https://docs.djangoproject.com/zh-hans/4.2`
+    - `https://www.django-rest-framework.org`
 
 
 - Open source projects
-    - https://github.com/Mischback/django-project-skeleton
-    - https://github.com/saqibur/django-project-structure
-    - https://github.com/rdegges/django-skel
-    - https://gitee.com/zhengxiangqi/template-for-django
-    - https://github.com/fushuwei/django-base-demo
+    - `https://github.com/Mischback/django-project-skeleton`
+    - `https://github.com/saqibur/django-project-structure`
+    - `https://github.com/rdegges/django-skel`
+    - `https://gitee.com/zhengxiangqi/template-for-django`
+    - `https://github.com/fushuwei/django-base-demo`
 
 ## You maybe interested
 
