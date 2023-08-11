@@ -87,15 +87,21 @@ python manage.py runserver --settings config.settings.develop
 
 ### Project Structure
 
-`todo`
+omit
 
 ## References
 
-- `https://github.com/rdegges/django-skel`
-- `https://github.com/Mischback/django-project-skeleton`
-- `https://github.com/saqibur/django-project-structure`
-- `https://github.com/fushuwei/django-base-demo`
-- `https://gitee.com/zhengxiangqi/template-for-django`
+- Official documents (required reading)
+    - https://docs.djangoproject.com/zh-hans/4.2/
+    - https://www.django-rest-framework.org/
+
+
+- Open source projects
+    - https://github.com/Mischback/django-project-skeleton
+    - https://github.com/saqibur/django-project-structure
+    - https://github.com/rdegges/django-skel
+    - https://gitee.com/zhengxiangqi/template-for-django
+    - https://github.com/fushuwei/django-base-demo
 
 ## You maybe interested
 
