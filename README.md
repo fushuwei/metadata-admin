@@ -33,14 +33,14 @@ git clone git@github.com:fushuwei/metadata-admin.git
 - Install virtual environment
 
 ```shell
-# Creating virtual environment
+# Creating a virtual environment
 python -m venv venv
 
-# Activate the virtual environment (Scripts directory on Windows, bin directory on Linux)
-venv\Scripts\activate
+# Activate virtual environment (On Windows use `venv\Scripts\activate`)
+source venv/bin/activate
 
 # Exit virtual environment
-# deactivate
+deactivate
 ```
 
 - Install dependencies
@@ -79,7 +79,7 @@ DATABASES = {
 }
 ```
 
-### Run Server
+### Quickstart
 
 ```shell
 python manage.py runserver --settings config.settings.develop
@@ -105,9 +105,28 @@ omit
 
 ## You maybe interested
 
-- How to create django projects from scratch
+- How to create a django projects from scratch
 
 ```shell
-# The project_name directory must be created in advance
-django-admin startproject config project_name
+# Create the project directory
+mkdir project_name
+cd project_name
+
+# Create a virtual environment to isolate our package dependencies locally
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+# Install Django and Django REST framework into the virtual environment
+pip install django
+pip install djangorestframework
+
+# Set up a new project with a single application
+django-admin startproject config .
+
+# Create app
+mkdir apps
+cd apps
+django-admin startapp app_name
+
+...
 ```
